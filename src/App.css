@@ -1,1 +1,18 @@
-/* add your styles here */
+
+
+.Main-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap:10px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+img{
+     width: 100%;
+}
+
+h1{
+     display: flex;
+     justify-content: center;
+}
